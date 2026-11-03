@@ -17,18 +17,19 @@
 <body>
   <main>
     <h1>Privacy Choices</h1>
-    <p>PlateCost AI does not create user accounts. In the current release candidate, recipe and pricing data is stored locally and is not sent to an AI provider or PlateCost AI server.</p>
+    <p>PlateCost AI does not create user accounts. Saved estimates are stored locally on your device. If you choose remote AI suggestions, recipe and pricing data is sent after consent for real-time processing and is not retained by the configured relay/provider route.</p>
     <section class="panel">
       <h2>What You Can Control</h2>
       <ul>
         <li>Delete saved menu estimates from inside the app.</li>
         <li>Reset the current draft before a new estimate.</li>
+        <li>Withdraw consent for future remote AI requests in the app's Settings.</li>
         <li>Contact support for privacy questions; this webpage cannot access or erase data stored on your device.</li>
       </ul>
     </section>
     <section>
       <h2>Remote Processing</h2>
-      <p>Remote AI requests are unavailable in the current release candidate, so recipe and cost data is not transmitted to DeepSeek. If remote processing is introduced in a future release, the app will disclose the fields, recipient, and purpose and request consent before sending data.</p>
+      <p>After you consent, the app sends recipe and calculated pricing details to our HTTPS relay for DeepSeek to generate text suggestions. Requests are processed in real time, are not retained as request content or related logs, and are not used to improve models. Declining keeps that estimate on-device. You can withdraw consent in Settings; previously processed requests are not stored by the configured route.</p>
     </section>
     <section>
       <h2>Contact</h2>

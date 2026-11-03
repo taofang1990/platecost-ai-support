@@ -47,32 +47,34 @@
 <body>
   <main>
     <h1>Privacy Policy</h1>
-    <p>Effective date: October 30, 2026</p>
+    <p>Effective date: November 4, 2026</p>
 
     <section class="panel">
       <h2>Overview</h2>
-      <p>PlateCost AI is a menu cost and pricing app for restaurant operators. The current release candidate does not require account registration, does not request App Tracking Transparency permission, and does not send recipe or cost inputs to PlateCost AI servers or an AI provider.</p>
+      <p>PlateCost AI is a menu cost and pricing app for restaurant operators. It does not require account registration or use cross-app tracking. Core cost and price calculations run on your device. Optional remote AI pricing suggestions require your consent before the first request.</p>
     </section>
 
     <section>
       <h2>Information You Enter</h2>
-      <p>You may enter recipe names, ingredients, cost assumptions, labor, packaging, waste, and margin targets. The app uses these inputs on your device to calculate estimates and rule-based pricing notes. Results are estimates based on your assumptions, not verified supplier quotes or current market prices.</p>
+      <p>You may enter recipe names, ingredients, quantities, costs, labor, packaging, waste, margin targets, and a market. The app uses these inputs on your device to calculate costs and price estimates. Results are based on your assumptions, not verified supplier quotes or current market prices.</p>
       <p>Saved estimate history is stored in the app's local storage on your device. PlateCost AI does not receive this information. iOS device-backup behavior is governed by your device and Apple account settings.</p>
     </section>
 
     <section>
       <h2>Network and AI Processing</h2>
-      <p>The current release candidate does not send recipe or cost inputs to DeepSeek, another AI provider, or a PlateCost AI server. Remote AI is not available in this version. If a future version adds remote processing, its in-app disclosure and this policy will be updated before that feature is enabled.</p>
+      <p>When you consent to remote AI analysis, the app sends the dish name, serving count, ingredient names, quantities, units and unit costs, selected market, and calculated cost and price figures over HTTPS to the PlateCost AI relay for processing by DeepSeek. This is used only to generate written pricing suggestions; numerical calculations remain on your device.</p>
+      <p>The configured relay and model-provider route processes requests in real time. It does not retain request contents or related logs, and does not use inputs or outputs to improve models. If you decline consent, that analysis request is not sent and the app uses on-device rule-based suggestions. You can withdraw consent in Settings; future requests will not be sent unless you consent again.</p>
+      <p>AI suggestions may be inaccurate or incomplete. Use them as a reference and verify supplier prices before making business decisions. Do not enter personal or confidential information.</p>
     </section>
 
     <section>
       <h2>Purchases</h2>
-      <p>Subscription purchases are not available in the current release candidate. If purchases are introduced in a future version, Apple will process them through your Apple ID.</p>
+      <p>Premium offers optional monthly and yearly auto-renewing subscriptions for unlimited remote AI estimates. Apple processes purchases through your Apple ID; PlateCost AI does not receive your payment-card details. The app shows the price and renewal terms before purchase. You can manage or cancel subscriptions in your Apple ID settings.</p>
     </section>
 
     <section>
       <h2>Tracking</h2>
-      <p>The current release candidate does not collect personal or recipe data on a PlateCost AI server, use advertising analytics, or track you across apps or websites owned by other companies.</p>
+      <p>PlateCost AI does not use advertising analytics or track you across other companies' apps or websites. Recipe and pricing requests are processed transiently and are not retained by the configured relay/provider route.</p>
     </section>
 
     <section>
